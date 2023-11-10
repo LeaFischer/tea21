@@ -8,7 +8,7 @@ auto main(int argc, char **argv) -> int
 {
     /**
      * CLI11 is a command line parser to add command line options
-     * More inpo at https://github.com/CLIUtils/CLI11#usage
+     * More info at https://github.com/CLIUtils/CLI11#usage
      */
     CLI::App app{PROJECT_NAME};
     try
@@ -20,7 +20,7 @@ auto main(int argc, char **argv) -> int
     {
         return app.exit(e);
     }
-
+    
     /**
      * The {fmt} lib is a cross platform library for printing and formatting text
      * it is much more convenient than std::cout and printf
