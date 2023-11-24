@@ -34,7 +34,9 @@ auto main(int argc, char **argv) -> int
      */
     fmt::println("Hello, {}!\n", app.get_name());
     fmt::println("The filename to use: {}", filename);
-    /* INSERT YOUR CODE HERE */
+    
+    BMP bmp;
+    bmp.read(filename);
 
     return 0; /* exit gracefully*/
 }
